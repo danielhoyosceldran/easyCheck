@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './pages/principal.dart';
+import './pages/pageGroups.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: MyHomePage(title: 'Easy Check'),
+      home: PageGroups(title: 'Easy Check'),
     );
   }
 }
